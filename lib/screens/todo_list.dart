@@ -38,14 +38,14 @@ class _TodoListPageState extends State<TodoListPage> {
                 subtitle: Text(item['description']),
                 trailing: PopupMenuButton(
                   onSelected: (value){
-                    if(value == 'edit')
+                    /*if(value == 'edit')
                       {
 
                       }
                     else if(value=='delete')
                       {
 
-                      }
+                      }*/
                   },
                   itemBuilder: (context)
               {
